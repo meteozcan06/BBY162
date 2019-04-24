@@ -18,9 +18,9 @@ print(soru3)
 sozluk = {"Elma" : "Ağaçta yetişen bir tür meyve" , "Salatalık" : "Fidan üzerinde büyüyen bir tür sebze"}
 yazılanSozcuk = input("Sözlükte yazan bir meyve veya sebze adı giriniz. Elma/Salatalık: ")
 if yazılanSozcuk = "Elma":
-    print("Ağaçta yetişen bir tür meyve")
+    print(sozluk["Elma"])
 if yazılanSozcuk = "Salatalık":
-    print("Fidan üzerinde büyüyen bir tür sebze")
+    print(sozluk["Salatalık"])
 else
     print("Sözlükten bir kelime giriniz.")
 """
